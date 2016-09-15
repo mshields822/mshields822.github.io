@@ -10,7 +10,7 @@ table td:first-child {
   font-weight: bold;
   border-right: 1px solid #000;
   padding: 5pt;
-  width: 10em;
+  width: 12em;
   vertical-align: top;
 }
 table td:last-child {
@@ -26,8 +26,14 @@ table td:last-child {
 
 <table>
   <tr>
-    <td>Contact</td>
-    <td>mshields822@gmail.com, based in Seattle.</td>
+    <td>Coordinates</td>
+    <td>
+      <a href="mailto:mshields822@gmail.com">mshields822@gmail.com</a>,
+      <a href="https://github.com/mshields822">GitHub</a>,
+      <a href="https://www.linkedin.com/in/mshields822">LinkedIn</a>,
+      <a href="http://mshields822.github.io">Resume</a>,
+      Based in Seattle.
+    </td>
   </tr>
   <tr>
     <td>Strengths</td>
@@ -39,7 +45,7 @@ table td:last-child {
         <li>Biased towards action.</li>
         <li>Wide ranging technology background spanning languages and type systems, compilers, program optimization, program analysis,
         huge dataset processing pipelines, geograhic databases, geocoding, microarchitecture, basic electronics.</li>
-        <li>Java, C#, OCaml, Haskell, C++, MapReduce.
+        <li>Java, Scala, C#, JavaScript, OCaml, Haskell, C++, MapReduce.
       </ul>
     </td>
   </tr>
@@ -48,64 +54,59 @@ table td:last-child {
     <td><h2>Work</h2></td>
   </tr>
   <tr>
-    <td>Jul 2015-Present</td>
+    <td>Jun 2016-Present</td>
     <td>
-      <span class="pos">Developer, Google (Dataflow).</span> Established benchmarking for Google Cloud Streaming Dataflow.
-      Worked on automatic scaling for streaming pipelines based on high backlog or low utiliation.
+      <span class="pos">Sabbatical.</span> Bayesian statistics, machine learning, systems biology.
     </td>
   </tr>
   <tr>
-    <td>Aug 2014-Jul 2015</td>
+    <td>Jul 2015-May 2016</td>
     <td>
-      <span class="pos">Tech Lead/Manager, Google (Maps).</span> Managed six engineers on a project to reposition
-      and repair Google Maps business listings by correlating them with other maps features, including roads,
-      buildings, and addresses. Combines complex algorithms with massive data processing.
+      <span class="pos">Developer, Google (Cloud).</span>
+      Helped launch <a href="https://cloud.google.com/dataflow/">Google Cloud Dataflow</a> (Streaming).
+      Established benchmark suites.
+      Made many performance, concurrency, correctness and semantics improvements.
+      Onboarded customers.
+      Helped transition SDK to <a href="http://beam.incubator.apache.org/">Apache 'Beam' project</a>.
+      Java, C++, Google Compute Engine, Distributed and concurrent programming.
+      A little <a href="http://spark.apache.org/">Spark</a>, <a href="https://flink.apache.org/">Flink</a>
+      and Scala.
     </td>
   </tr>
   <tr>
-    <td>Oct 2012-Jul 2014</td>
+    <td>Apr 2011-Jul 2015</td>
     <td>
-      <span class="pos">Tech Lead, Google (Maps).</span> Established a new team of four engineers to
-      build and exploit automated analysis pipelines for finding and correcting errors in maps data, particularly
-      around addresses and their impact on geocoding quality.
-    </td>
-  </tr>
-  <tr>
-    <td>Apr 2011-Sep 2012</td>
-    <td>
-      <span class="pos">Developer, Google (Maps).</span> Built automated analysis pipelines for finding and
-      correcting errors in maps data, particularly around addresses and their impact on geocoding quality.
+      <span class="pos">Developer/Tech Lead/Manager, Google (Maps).</span>
+      Pioneered model-based data repair to improve geocoding and business listing locations.
+      Built the pipeline which merges <a href="http://arxiv.org/abs/1312.6082">auto-transcribed street numbers</a>
+      into base maps data.
+      Built and managed a team of six engineers.
+      Java, MapReduce, custom algorithms, massive datasets and batch processing.
     </td>
   </tr>
   <tr>
     <td>Aug 2010-Mar 2011</td>
     <td>
-      <span class="pos">Senior Developer, Microsoft (DevDiv).</span> Worked on the new JavaScript engine of Internet
-      Explorer 9. Wrote a new regular-expression engine which required very high performance C++ and static
-      analysis. The engine was outperforming all other browsers in regex benchmarks at the time.
+      <span class="pos">Senior Developer, Microsoft (DevDiv).</span>
+      Worked on the new <a href="https://github.com/Microsoft/ChakraCore">'Chakra'</a> JavaScript engine
+      of Internet Explorer 9. Wrote the new regular-expression engine. C++.
     </td>
   </tr>
   <tr>
-    <td>Jan 2008-Aug 2010</td>
+    <td>Jun 2007-Aug 2010</td>
     <td>
-      <span class="pos">Senior Developer, Microsoft (SQL).</span> Designed and implemented an optimizing compiler,
-      "IL2JS", from full MSIL to JavaScript. Implemented the corresponding CLR runtime system in
-      JavaScript. Reimplemented a portion of the BCL in a mixture of C# and JavaScript. Result was 20% larger
-      and 50% slower than hand-written JavaScript.
-    </td>
-  </tr>
-  <tr>
-    <td>Jun 2007-Dec 2007</td>
-    <td>
-      <span class="pos">Senior Developer, Microsoft (SQL).</span> Prototyped a system for expressing "updatable
-      views" on a SQL database using LINQ.
-    </td>
+      <span class="pos">Senior Developer, Microsoft (SQL).</span>
+      Built an optimizing compiler to transpile MSIL to JavaScript, and implemented the corresponding
+      runtime. (Think <a href="http://www.gwtproject.org/overview.html">GWT</a>, but for the Microsoft stack.)
+      Implemented updatable views on SQL backend via C# LINQ.
+      C#, JavaScript.
+   </td>
   </tr>
   <tr>
     <td>Jan 2006-May 2007</td>
     <td>
-      <span class="pos">Program Manager, Microsoft (XML).</span> Designed and prototyped a datamodeling language
-      combining relational and XSD concepts in a stratified way.
+      <span class="pos">Program Manager, Microsoft (XML).</span>
+      Prototyped a datamodeling language combining relational and XSD concepts in a stratified way.
     </td>
   </tr>
   <tr>
@@ -285,6 +286,6 @@ table td:last-child {
 </table>
 
 <p/>
-Last updated 23-Oct-2015.
+Last updated 15-Sep-2016.
 </body>
 </html>
